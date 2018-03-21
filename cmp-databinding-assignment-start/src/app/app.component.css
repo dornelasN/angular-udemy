@@ -1,0 +1,16 @@
+.displayNumberComponents {
+  display: flex;
+  align-items: flex-start;
+}
+.oddNumbers {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+.evenNumbers {
+  display: flex;
+  flex-direction: column;
+  order: 1;
+  align-self: flex-end;
+  flex-basis: 50%;
+}
